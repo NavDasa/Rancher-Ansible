@@ -1,8 +1,14 @@
 ---
 
 rancher_name: rancher_server
+<<<<<<< HEAD
+rancher_server: 139.59.93.248
+rancher_version: v2.0.0-alpha10
+rancher_port: 8080
+=======
 rancher_server: "{{ hostvars['rancher']['ansible_ssh_host'] }}"
 rancher_version: v1.5.3
 rancher_port: 8080
 ansible_user: <user-name>
 ansible_password: <password>
+>>>>>>> 9d4ade567c291e55330a95261fa4eb44c5ab6c1d
